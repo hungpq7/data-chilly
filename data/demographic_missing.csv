@@ -9,7 +9,7 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 8,southern,female,74,elder,12,highshool,sale,1,0,0,9120
 9,northern,male,34,youth,12,highshool,officer,0,0,0,10020
 10,central,male,49,middle,12,highshool,manager,1,0,0,23760
-11,northern,female,67,middle,15,bachelor,officer,1,0,,10260
+11,northern,female,67,middle,15,bachelor,officer,1,0,,
 12,northern,male,71,elder,12,highshool,officer,0,0,0,10680
 13,southern,female,40,middle,12,highshool,sale,1,0,0,8580
 14,central,female,70,elder,12,highshool,officer,0,0,0,16320
@@ -22,7 +22,7 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 21,central,male,63,middle,16,master,officer,0,0,0,14400
 22,central,male,66,middle,15,bachelor,officer,1,0,0,14100
 23,northern,male,62,middle,12,highshool,officer,1,0,0,9600
-24,northern,male,,middle,15,bachelor,officer,0,0,0,10020
+24,northern,male,,middle,15,bachelor,officer,0,0,0,
 25,central,male,66,middle,16,master,sale,1,0,0,19200
 26,southern,female,34,youth,8,highshool,officer,1,0,0,6660
 27,central,male,68,middle,15,bachelor,officer,1,0,1,14100
@@ -92,7 +92,7 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 91,central,male,70,elder,15,bachelor,officer,1,0,1,12420
 92,northern,female,63,middle,12,highshool,officer,0,0,0,10080
 93,central,male,70,elder,15,bachelor,officer,1,0,1,12300
-94,southern,female,49,middle,12,highshool,officer,0,1,0,7860
+94,southern,female,49,middle,12,highshool,officer,0,1,0,
 95,central,male,64,middle,14,bachelor,sale,0,0,0,15120
 96,central,female,68,middle,16,master,sale,0,0,0,13200
 97,northern,female,67,middle,15,bachelor,sale,0,,0,10560
@@ -139,7 +139,7 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 138,central,male,67,middle,15,bachelor,officer,1,0,0,15000
 139,southern,female,37,youth,8,highshool,officer,0,0,0,8700
 140,northern,female,72,elder,12,highshool,sale,0,0,0,9360
-141,southern,female,35,youth,12,highshool,officer,1,0,0,6600
+141,southern,female,35,youth,12,highshool,officer,1,0,0,
 142,southern,female,40,middle,8,highshool,officer,1,0,0,6780
 143,central,male,66,middle,15,bachelor,officer,0,0,0,15840
 144,northern,female,68,middle,12,highshool,officer,0,1,0,11100
@@ -148,7 +148,7 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 147,central,male,57,middle,19,master,manager,0,0,1,22000
 148,northern,female,73,elder,12,highshool,sale,1,0,0,11160
 149,southern,female,35,youth,8,highshool,officer,1,0,0,7080
-150,northern,male,59,middle,8,highshool,sale,0,0,0,12000
+150,northern,male,59,middle,8,highshool,sale,0,0,0,
 151,southern,female,45,middle,8,highshool,officer,1,1,0,6840
 152,central,male,60,middle,15,bachelor,officer,0,0,0,14400
 153,southern,female,45,middle,12,highshool,sale,1,0,0,8340
@@ -236,12 +236,12 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 235,northern,male,35,youth,12,highshool,sale,1,0,1,12240
 236,northern,male,65,middle,15,bachelor,sale,0,0,0,10980
 237,northern,male,68,middle,12,highshool,sale,1,1,0,10200
-238,southern,female,72,elder,12,highshool,sale,1,0,0,7680
+238,southern,female,72,elder,12,highshool,sale,1,0,0,
 239,southern,female,71,elder,12,highshool,sale,1,0,0,8040
 240,southern,female,33,youth,8,highshool,officer,0,0,0,6300
 241,central,female,73,elder,12,highshool,sale,0,1,0,13800
 242,central,male,69,middle,15,bachelor,officer,1,0,0,15360
-243,northern,female,67,middle,12,highshool,officer,1,0,0,10260
+243,northern,female,67,middle,12,highshool,officer,1,0,0,
 244,northern,male,59,middle,12,highshool,officer,1,0,0,11736
 245,central,male,54,middle,18,master,officer,0,0,0,17580
 246,central,male,65,middle,15,bachelor,officer,0,0,0,19600
@@ -285,7 +285,7 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 284,central,male,58,middle,19,master,sale,1,0,0,24150
 285,northern,male,65,middle,12,highshool,officer,1,0,0,10920
 286,central,male,62,middle,18,master,manager,0,0,0,25000
-287,central,male,61,middle,20,master,manager,0,0,1,23750
+287,central,male,61,middle,20,master,manager,0,0,1,
 288,central,male,55,middle,19,master,manager,1,0,0,28350
 289,southern,female,57,middle,12,highshool,officer,1,0,0,8820
 290,northern,female,70,elder,15,bachelor,sale,0,0,0,11700
@@ -371,7 +371,7 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 370,central,female,67,middle,16,master,sale,0,0,0,14640
 371,southern,female,74,elder,12,highshool,sale,1,0,0,8700
 372,central,female,68,middle,15,bachelor,sale,0,0,0,14820
-373,central,male,65,middle,17,master,sale,1,0,1,22000
+373,central,male,65,middle,17,master,sale,1,0,1,
 374,central,male,52,middle,19,master,manager,1,1,1,36800
 375,northern,female,45,middle,12,highshool,officer,1,0,0,9360
 376,southern,male,37,youth,15,bachelor,officer,1,1,0,9000
@@ -401,7 +401,7 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 400,northern,male,,middle,15,bachelor,officer,0,0,0,12060
 401,northern,male,72,elder,12,highshool,sale,1,0,0,10200
 402,northern,male,62,middle,15,bachelor,officer,1,0,0,10800
-403,northern,female,59,middle,12,highshool,officer,1,1,0,10560
+403,northern,female,59,middle,12,highshool,officer,1,1,0,
 404,southern,male,68,middle,8,highshool,officer,0,0,0,8760
 405,central,female,68,middle,15,bachelor,sale,1,0,0,13020
 406,central,male,65,middle,17,master,sale,1,0,0,31400
@@ -419,7 +419,7 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 418,central,male,66,middle,19,master,sale,1,0,0,30000
 419,central,male,66,middle,16,master,officer,0,0,1,13980
 420,northern,female,50,middle,12,highshool,officer,1,0,0,9600
-421,southern,female,72,elder,12,highshool,sale,1,0,0,9000
+421,southern,female,72,elder,12,highshool,sale,1,0,0,
 422,southern,female,51,middle,8,highshool,officer,1,0,0,8760
 423,southern,female,,youth,15,bachelor,officer,0,0,0,8280
 424,southern,female,43,middle,12,highshool,officer,1,0,0,6900
@@ -430,7 +430,7 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 429,northern,male,65,middle,15,bachelor,officer,0,0,0,10740
 430,central,male,67,middle,12,highshool,sale,0,0,0,14460
 431,northern,male,64,middle,12,highshool,sale,0,0,0,10800
-432,southern,female,51,middle,8,highshool,officer,0,0,0,8580
+432,southern,female,51,middle,8,highshool,officer,0,0,0,
 433,southern,female,36,youth,12,highshool,officer,1,1,0,6780
 434,central,male,66,middle,16,master,officer,1,0,1,21060
 435,central,male,66,middle,16,master,sale,1,0,0,21250
@@ -439,7 +439,7 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 438,northern,female,36,youth,8,highshool,officer,0,0,0,11640
 439,southern,female,72,elder,12,highshool,sale,1,0,0,7260
 440,central,female,44,middle,16,master,manager,0,0,0,16620
-441,southern,female,74,elder,12,highshool,sale,0,0,0,9060
+441,southern,female,74,elder,12,highshool,sale,0,0,0,
 442,central,male,,middle,19,master,sale,0,0,0,31250
 443,northern,female,56,middle,12,highshool,officer,0,0,0,9720
 444,central,male,44,middle,12,highshool,sale,1,0,1,12300
@@ -451,7 +451,7 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 450,southern,female,49,middle,16,master,officer,1,1,0,9240
 451,central,male,63,middle,18,master,manager,1,1,1,34500
 452,southern,female,73,elder,12,highshool,sale,1,1,0,9240
-453,northern,female,51,middle,8,highshool,officer,1,0,0,9660
+453,northern,female,51,middle,8,highshool,officer,1,0,0,
 454,northern,female,65,middle,12,highshool,officer,0,0,0,11400
 455,southern,female,73,elder,8,highshool,sale,0,0,0,9000
 456,northern,female,73,elder,12,highshool,sale,0,0,0,9360
@@ -469,7 +469,7 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 468,northern,male,57,middle,12,highshool,officer,1,1,0,11640
 469,northern,male,72,elder,15,bachelor,officer,0,0,0,11400
 470,central,male,67,middle,18,master,sale,0,0,0,31300
-471,central,male,68,middle,15,bachelor,sale,1,0,0,12780
+471,central,male,68,middle,15,bachelor,sale,1,0,0,
 472,southern,female,42,middle,8,highshool,officer,1,0,0,6380
 473,southern,female,36,youth,15,bachelor,officer,1,0,0,7790
 474,northern,male,66,middle,8,highshool,officer,0,0,0,11740
@@ -494,7 +494,7 @@ id,area,gender,age,age_group,year_of_school,degree,job,know_english,know_france,
 493,northern,female,72,elder,12,highshool,sale,0,0,0,11850
 494,northern,male,57,middle,12,highshool,officer,1,1,0,11660
 495,northern,male,72,elder,15,bachelor,officer,0,0,0,11470
-496,central,male,67,middle,18,master,sale,0,0,0,31400
+496,central,male,67,middle,18,master,sale,0,0,0,
 497,central,male,68,middle,15,bachelor,sale,,0,0,12930
 498,southern,female,42,middle,8,highshool,officer,1,0,0,6390
 499,southern,female,36,youth,15,bachelor,officer,1,0,0,7800
