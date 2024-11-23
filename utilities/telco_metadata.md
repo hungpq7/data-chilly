@@ -1,9 +1,9 @@
 Column|Description|
 :-|:-|
-Customerid|A unique ID that identifies each customer
+CustomerID|A unique ID that identifies each customer
 Gender|The customer’s gender: Male, Female
 Age|The customer’s current age
-SeniorCitizen|Indicates if the customer is 65 or olde|Yes, No
+SeniorCitizen|Indicates if the customer is 65 or older: Yes, No
 Married|Indicates if the customer is married: Yes, No
 NumberOfDependents|Indicates the number of dependents that live with the customer.
 Country|The country of the customer’s primary residence
@@ -14,7 +14,7 @@ Longitude|The longitude of the customer’s primary residence.
 NumberOfReferrals|Indicates the number of referrals to date that the customer has made.
 TenureInMonths|Indicates the total amount of months that the customer has been with the company by the end of the quarter
 AvgMonthlyLongDistanceCharges|Indicates the customer’s average long distance charges, calculated to the end of the quarter.
-MultipleLines|Indicates if the customer subscribes to multiple telephone lines with the company|Yes, No
+MultipleLines|Indicates if the customer subscribes to multiple telephone lines with the company: Yes, No
 InternetType|Indicates if the customer subscribes to Internet service with the company: No, DSL, Fiber Optic, Cable.
 AvgMonthlyGbDownload|Indicates the customer’s average download volume in gigabytes, calculated to the end of the quarter specified above
 Contract|Indicates the customer’s current contract type: Month-to-Month, One Year, Two Year.
