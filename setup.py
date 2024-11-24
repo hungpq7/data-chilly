@@ -12,5 +12,5 @@ ipython.run_line_magic("config", "SqlMagic.style='_DEPRECATED_DEFAULT'")
 ipython.run_line_magic("config", "SqlMagic.displaycon=False")
 ipython.run_line_magic("config", "SqlMagic.feedback=False")
 
-clear_output()
+# clear_output()
 print(f'{DBFILE} connected successfully!')
