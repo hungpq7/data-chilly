@@ -15,3 +15,5 @@ def setup():
 
     # clear_output()
     print(f'{DBFILE} connected successfully!')
+
+setup()
