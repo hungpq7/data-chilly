@@ -6,7 +6,7 @@ DBFILE = 'chinook.db'
 
 def setup():
     dbfile = sys.argv[1]
-    urlretrieve(f'https://github.com/hungpq7/data-chilly/blob/sql/data/{dbfile}', dbfile)
+    urlretrieve(f'https://github.com/hungpq7/data-chilly/raw/sql/data/{dbfile}', dbfile)
     ipython = get_ipython()
     ipython.run_line_magic("pip", "install ipython-sql==0.5.0")
     ipython.run_line_magic("reload_ext", "sql")
