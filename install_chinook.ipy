@@ -5,4 +5,4 @@
 %config SqlMagic.displaycon = False
 %config SqlMagic.feedback = False
 %config SqlMagic.style = '_DEPRECATED_DEFAULT'
-%config SqlMagic.displaylimit = 50
+%config SqlMagic.displaylimit = 20
