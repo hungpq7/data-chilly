@@ -1,8 +1,9 @@
 !wget -q -nc https://github.com/hungpq7/data-chilly/raw/sql/data/northwind.db
-!pip install -q ipython-sql
+!pip install -q ipython-sql==0.5.0
 %reload_ext sql
 %sql sqlite:///northwind.db
 %config SqlMagic.displaycon = False
 %config SqlMagic.feedback = False
 %config SqlMagic.style = '_DEPRECATED_DEFAULT'
-%config SqlMagic.displaylimit = 20
+%config SqlMagic.displaylimit = 50
+%config SqlMagic.autopandas = True
