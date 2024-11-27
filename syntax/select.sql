@@ -4,7 +4,7 @@ FROM my_table;
 
 -- select specific columns
 SELECT column_1, column_2,..., column_n
-FROM my_table
+FROM my_table;
 
 -- select specific columns with aliases
 SELECT column_1 AS alias_1
