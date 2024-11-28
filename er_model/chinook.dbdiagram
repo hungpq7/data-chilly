@@ -1,0 +1,96 @@
+Table employee {
+  employee_id int [pk]
+  last_name varchar
+  first_name varchar
+  title varchar
+  reports_to int [ref: > employee.employee_id]
+  birthdate date
+  hire_date date
+  address varchar
+  city varchar
+  state varchar
+  country varchar
+  postal_code varchar
+  phone varchar
+  fax varchar
+  email varchar
+}
+
+Table customer {
+  customer_id int [pk]
+  first_name varchar
+  last_name varchar
+  company varchar
+  address varchar
+  city varchar
+  state varchar
+  country varchar
+  postal_code varchar
+  phone varchar
+  fax varchar
+  email varchar
+  support_rep_id int [ref: > employee.employee_id]
+}
+
+Table invoice {
+  invoice_id int [pk]
+  customer_id int [ref: > customer.customer_id]
+  invoice_date date
+  billing_address varchar
+  billing_city varchar
+  billing_state varchar
+  billing_country varchar
+  billing_postal_code varchar
+  total decimal
+}
+
+Table invoice_line {
+  invoice_line_id int [pk]
+  invoice_id int [ref: > invoice.invoice_id]
+  track_id int [ref: > track.track_id]
+  unit_price decimal
+  quantity int
+}
+
+Table track {
+  track_id int [pk]
+  name varchar
+  album_id int [ref: > album.album_id]
+  media_type_id int [ref: > media_type.media_type_id]
+  genre_id int [ref: > genre.genre_id]
+  composer varchar
+  milliseconds int
+  bytes int
+  unit_price decimal
+}
+
+Table album {
+  album_id int [pk]
+  title varchar
+  artist_id int [ref: > artist.artist_id]
+}
+
+Table artist {
+  artist_id int [pk]
+  name varchar
+}
+
+Table genre {
+  genre_id int [pk]
+  name varchar
+}
+
+Table media_type {
+  media_type_id int [pk]
+  name varchar
+}
+
+Table playlist {
+  playlist_id int [pk]
+  name varchar
+}
+
+Table playlist_track {
+  playlist_id int [ref: > playlist.playlist_id, pk]
+  track_id int [ref: > track.track_id, pk]
+}

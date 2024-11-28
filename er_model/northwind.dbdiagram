@@ -1,0 +1,129 @@
+Table Categories {
+  CategoryID int [pk]
+  CategoryName varchar
+  Description varchar
+  Picture blob
+}
+
+Table CustomerCustomerDemo {
+  CustomerID varchar [pk, ref: > Customers.CustomerID]
+  CustomerTypeID varchar [pk, ref: > CustomerDemographics.CustomerTypeID]
+}
+
+Table CustomerDemographics {
+  CustomerTypeID varchar [pk]
+  CustomerDesc varchar
+}
+
+Table Customers {
+  CustomerID varchar [pk]
+  CompanyName varchar
+  ContactName varchar
+  ContactTitle varchar
+  Address varchar
+  City varchar
+  Region varchar
+  PostalCode varchar
+  Country varchar
+  Phone varchar
+  Fax varchar
+}
+
+Table Employees {
+  EmployeeID int [pk]
+  LastName varchar
+  FirstName varchar
+  Title varchar
+  TitleOfCourtesy varchar
+  BirthDate date
+  HireDate date
+  Address varchar
+  City varchar
+  Region varchar
+  PostalCode varchar
+  Country varchar
+  HomePhone varchar
+  Extension varchar
+  Photo blob
+  Notes varchar
+  ReportsTo int [ref: > Employees.EmployeeID]
+  PhotoPath varchar
+}
+
+Table EmployeeTerritories {
+  EmployeeID int [pk, ref: > Employees.EmployeeID]
+  TerritoryID int [pk]
+}
+
+Table OrderDetails {
+  OrderID int [pk, ref: > Orders.OrderID]
+  ProductID int [pk, ref: > Products.ProductID]
+  UnitPrice float
+  Quantity int
+  Discount real
+}
+
+Table Orders {
+  OrderID int [pk]
+  CustomerID varchar [ref: > Customers.CustomerID]
+  EmployeeID int [ref: > Employees.EmployeeID]
+  OrderDate datetime
+  RequiredDate datetime
+  ShippedDate datetime
+  ShipVia int [ref: > Shippers.ShipperID]
+  Freight numeric
+  ShipName varchar
+  ShipAddress varchar
+  ShipCity varchar
+  ShipRegion varchar
+  ShipPostalCode varchar
+  ShipCountry varchar
+}
+
+Table Products {
+  ProductID int [pk]
+  ProductName varchar
+  SupplierID int [ref: > Suppliers.SupplierID]
+  CategoryID int [ref: > Categories.CategoryID]
+  QuantityPerUnit varchar
+  UnitPrice float
+  UnitsInStock int
+  UnitsOnOrder int
+  ReorderLevel int
+  Discontinued varchar
+}
+
+Table Regions {
+  RegionID int [pk]
+  RegionDescription varchar
+}
+
+Table Shippers {
+  ShipperID int [pk]
+  CompanyName varchar
+  Phone varchar
+}
+
+Table Suppliers {
+  SupplierID int [pk]
+  CompanyName varchar
+  ContactName varchar
+  ContactTitle varchar
+  Address varchar
+  City varchar
+  Region varchar
+  PostalCode varchar
+  Country varchar
+  Phone varchar
+  Fax varchar
+  HomePage varchar
+}
+
+Table Territories {
+  TerritoryID varchar [pk]
+  TerritoryDescription varchar
+  RegionID int [ref: > Regions.RegionID]
+}
+
+
+Ref: "EmployeeTerritories"."TerritoryID" < "Territories"."TerritoryID"
