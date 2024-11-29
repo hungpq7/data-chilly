@@ -4,5 +4,5 @@
 https://raw.githubusercontent.com/hungpq7/data-chilly/sql/data/{file}
 
 <center>
-<img src="https://raw.githubusercontent.com/hungpq7/data-chilly/sql/image/star_schema.svg" width=500px;>
+<img src="https://raw.githubusercontent.com/hungpq7/data-chilly/sql/image/denormalization.svg" width=500px;>
 </center>
