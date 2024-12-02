@@ -1,5 +1,7 @@
 - https://ray.so/
 - https://dbdiagram.io/
+- https://sqlime.org
+- https://sqliteonline.com
 
 https://raw.githubusercontent.com/hungpq7/data-chilly/sql/data/{file}
 
