@@ -6,5 +6,5 @@
 https://raw.githubusercontent.com/hungpq7/data-chilly/sql/data/{file}
 
 <center>
-<img src="https://raw.githubusercontent.com/hungpq7/data-chilly/sql/image/sql_syntax_join.png" width=500px;>
+<img src="https://raw.githubusercontent.com/hungpq7/data-chilly/sql/image/sql_syntax_window.png" width=500px;>
 </center>
