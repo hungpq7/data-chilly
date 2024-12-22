@@ -3,5 +3,5 @@
 https://raw.githubusercontent.com/hungpq7/data-chilly/python/data/{file}
 
 <center>
-<img src="https://raw.githubusercontent.com/hungpq7/data-chilly/python/image/python_syntax_if_elif_else.png" width=500px;>
+<img src="https://raw.githubusercontent.com/hungpq7/data-chilly/python/image/image.png" width=500px;>
 </center>
